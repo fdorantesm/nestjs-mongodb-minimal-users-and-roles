@@ -8,13 +8,6 @@ name = "javascript"
 enabled = true
 name = "prettier"
 
-test_patterns = [
-  "test/**/*",
-  "**/*.spec.ts"
-]
+test_patterns = ["test/**/*", "**/*.spec.ts"]
 
-exclude_patterns = [
-  "**/node_modules/",
-  "**/*memory*"
-  "test/*mock*"
-]
+exclude_patterns = ["**/node_modules/", "**/*memory*", "test/*mock*"]

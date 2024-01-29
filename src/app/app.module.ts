@@ -5,11 +5,6 @@ import { SharedModule } from '@/modules/shared/shared.module';
 import { Module } from '@nestjs/common';
 
 @Module({
-  imports: [
-    CoreModule,
-    DatabaseModule,
-    HealthModule,
-    SharedModule,
-  ],
+  imports: [CoreModule, DatabaseModule, HealthModule, SharedModule],
 })
 export class AppModule {}

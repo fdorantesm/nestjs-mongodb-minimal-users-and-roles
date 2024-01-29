@@ -26,7 +26,8 @@
     "bye": "docker-compose down",
     "compodoc": "compodoc -p tsconfig.json --theme material --output docs",
     "compodoc:serve": "serve -p 6521 docs",
-    "docker:publish": "dotenv ./docker.sh"
+    "docker:publish": "dotenv ./docker.sh",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@nestjs/common": "^10.2.7",
