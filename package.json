@@ -1,7 +1,7 @@
 {
   "name": "nestjs-mongodb-minimal-boilerplate",
   "type": "commonjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A NestJS minimal boilerplate for APIs with MongoDB, Swagger, Jest, Docker, and more.",
   "author": "Fernando Dorantes <fernando@dorant.es>",
   "private": false,
