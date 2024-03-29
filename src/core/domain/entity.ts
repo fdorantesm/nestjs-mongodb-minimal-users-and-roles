@@ -5,6 +5,10 @@ export abstract class Entity<T> {
     this._data = data;
   }
 
+  public getUuid() {
+    return this._data['uuid'];
+  }
+
   public _toJson() {
     return {
       ...this._data,
