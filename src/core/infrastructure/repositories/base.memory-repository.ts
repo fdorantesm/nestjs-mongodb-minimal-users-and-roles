@@ -9,7 +9,7 @@ import { Injectable } from '@nestjs/common';
 @Injectable()
 export class BaseMemoryRepository<I, E extends Entity<I>> implements Crud<I, E> {
   constructor(
-    private readonly store: DataStore<I>,
+    protected readonly store: DataStore<I>,
     private readonly entityClass: new (data: I) => E,
     private options?: BaseRepositoryOptions,
   ) {
