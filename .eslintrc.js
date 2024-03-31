@@ -21,14 +21,17 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
-    '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^(_|ctx|req|res|next|err)'}],
+    '@typescript-eslint/no-unused-vars': [
+      'error',
+      { argsIgnorePattern: '^(_|ctx|req|res|next|err)' },
+    ],
   },
   overrides: [
     {
-      files: ["src/modules/*/{domain,application}/*/*.ts"],
+      files: ['src/modules/*/{domain,application}/*/*.ts'],
       rules: {
-        "hexagonal-architecture/enforce": ["error"],
+        'hexagonal-architecture/enforce': ['error'],
       },
     },
-  ]
+  ],
 };
