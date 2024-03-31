@@ -17,10 +17,10 @@ Nest packages:
 
 ## Requirements
 
-|Technology |Version|
-|:----------|:-----:|
-| NodeJS    | 20.X  |
-| MongoDB   | 5.0   |
+| Technology | Version |
+| :--------- | :-----: |
+| NodeJS     |  20.X   |
+| MongoDB    |   5.0   |
 
 Notes:
 
@@ -60,14 +60,14 @@ Stop services
 yarn bye
 ```
 
-| Services |  -   |
-|:---------|:----:|
-| MongoDB  | 5.0  |
+| Services |  -  |
+| :------- | :-: |
+| MongoDB  | 5.0 |
 
 ## Documentation
 
 |          |                                                       |
-|:---------|:------------------------------------------------------|
+| :------- | :---------------------------------------------------- |
 | Swagger  | [View](http://localhost:3000/docs)                    |
 | Compodoc | [View](https://docs.nestjs.com/recipes/documentation) |
 
